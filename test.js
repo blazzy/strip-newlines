@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import snl from './index';
+import snl from './src/index';
 
 describe('strip-newlines', () => {
   it('strips leading and trailing whitespace on a string', ()  => {

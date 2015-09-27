@@ -1,12 +1,12 @@
 {
   "name": "strip-newlines",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An ES6 template string tag to replace newlines, indentation, and surrounding whitespace with a single space character.",
 
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel/register",
-    "prepublish": "babel index.js --out-dir lib"
+    "prepublish": "babel src --out-dir lib"
   },
   "repository": {
     "type": "git",
