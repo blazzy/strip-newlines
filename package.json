@@ -1,0 +1,32 @@
+{
+  "name": "strip-newlines",
+  "version": "1.0.0",
+  "description": "An ES6 template string tag to replace newlines, indentation, and surrounding whitespace with a single space character.",
+
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register",
+    "prepublish": "babel index.js --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blazzy/strip-newlines.git"
+  },
+  "keywords": [
+    "unindent",
+    "dedent",
+    "paragraph"
+  ],
+  "author": "Krishna Rajendran <krishna@emptybox.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blazzy/strip-newlines/issues"
+  },
+  "homepage": "https://github.com/blazzy/strip-newlines#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "chai": "^3.3.0",
+    "eslint": "^1.5.1",
+    "mocha": "^2.3.3"
+  }
+}
