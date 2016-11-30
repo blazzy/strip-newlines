@@ -29,5 +29,5 @@ In a sense we've come to our nation's capital to cash a check. When the architec
 # Installation
 
 ```
-npm install strip-newline
+npm install strip-newlines
 ```
